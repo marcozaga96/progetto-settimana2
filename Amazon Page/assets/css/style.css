@@ -22,8 +22,9 @@ header{
 nav{
     background-color: #364759;
     height: 5vh;
+    padding: 1rem 0;
 }
-.p1, .p2, .p4, .p5{
+.p1, .p2, .p4{
     margin: 40px;
     font-size: 1.5rem;
     padding: 1rem 0;
@@ -43,7 +44,7 @@ nav{
 .p2{
     background-image: url(../images/bg-image.png);
     color: #ECECEE;
-    
+    background-size: cover;
 }
 .p2 h2{
     font-size: 2rem;
@@ -75,11 +76,23 @@ nav{
     height: 25rem;
     margin-left: 30px;
     border-radius: 20px;
+    box-shadow: 5px 5px #DAE1E7;
 }
 .img{
     width: 100%;
 }
 .p5{
-    color: #DCE8F0;
     background-color: #364759;
+    text-align: center;
+    padding: 1rem 0;
+}
+.link{
+    color: #DCE8F0;
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: #222F3F;
+    height: 25vh;
+    text-align: center;
+    padding: 5rem 0;
 }
