@@ -1,1 +1,85 @@
 /* Your styles here */
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1.2rem;
+	font-size: 1.1rem;
+	font-family: arial,helvetica, sans-serif;
+}
+body{
+    background-color: #E9EDEE;
+}
+header{
+    background-color: #222F3F;
+    height: 100%;
+}
+.logo{
+    background-color: #222F3F;
+    height: 9vh;
+    margin: 10px 40px;
+}
+nav{
+    background-color: #364759;
+    height: 5vh;
+}
+.p1, .p2, .p4, .p5{
+    margin: 40px;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+.links{
+    color: #DCE8F0;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+.p1{
+    color: #eaeded;
+    background-color: #f56600;
+}
+.p2{
+    background-image: url(../images/bg-image.png);
+    color: #ECECEE;
+    
+}
+.p2 h2{
+    font-size: 2rem;
+    margin: 2.5rem;
+}
+.p2 h3{
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+.p3{
+    margin: 40px;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    background-color: white;
+}
+.p3 p, .p4 p{
+    font-size: 1.5rem;
+    margin-left: 30px;
+    display: inline-block;
+}
+.p3 h3, .p4 h3{
+    margin: 20px;
+    display: inline-block;
+    color: #0B686D;
+}
+.cards{
+    display: inline-block;
+    width: 22%;
+    height: 25rem;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.img{
+    width: 100%;
+}
+.p5{
+    color: #DCE8F0;
+    background-color: #364759;
+}
